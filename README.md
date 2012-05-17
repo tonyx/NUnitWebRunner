@@ -14,10 +14,10 @@ This is just a "waking skeleton". Here is a list of possible new features that I
 
 
 ok features:
-- manage the results by pages
-- more icons for different result status (I managed just success, ignore, and all the rest as failure)
-- selectable unit tests via checkboxes
-- tests to be runned can be in another assembly
+- pagination
+- manage more icons for results states (I managed just success, ignore, and all the rest as failure)
+- select unit tests to run via checkboxes
+- can add test created somewhere deploying their assembly somewhere.
 - select/browse by classes and namespace
 
 wow features:
