@@ -9,7 +9,7 @@ namespace NunitWebRunner.runner
     {
         public List<TestResult> RunTests()
         {
-            MyEventListener eventListener = new MyEventListener();
+            TestResultsEventListener eventListener = new TestResultsEventListener();
             CoreExtensions.Host.InitializeService();
             SimpleTestRunner runner = new SimpleTestRunner();
 

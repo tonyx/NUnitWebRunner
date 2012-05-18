@@ -6,7 +6,7 @@ using NUnit.Core;
 
 namespace NunitWebRunner.coreRunner
 {
-    public class MyEventListener : EventListener
+    public class TestResultsEventListener : EventListener
     {
         private List<TestResult> listResults;
 
@@ -15,7 +15,7 @@ namespace NunitWebRunner.coreRunner
             get { return listResults; }
         }
 
-        public MyEventListener()
+        public TestResultsEventListener()
         {
             listResults = new List<TestResult>();
         }
