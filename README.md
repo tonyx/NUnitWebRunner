@@ -1,14 +1,13 @@
 NUnitWebRunner
 ==============
 
+Note: I have not mantained this project for a while.
+
 Web runner interface for NUnit tests. 
 
-Why to use it: when you you have legacy code highly dependent of the web execution environment so cannot easily tested outside of the web environment, and you want to start writing unit tests.
+Why to use it: when you you havecode highly dependent of the web execution environment so you cannot easily tested outside of the container hosting the whole app. So you can just deploy a web page and run unit tests as an actual web page deployed with the whole application. 
 
-how to use it (not tried yet): add the pages and the classes of this solution in your web application. Write your tests. Run the app. Load the page that in this project is the default, then it shoud run all and visualize all the tests of your projects.
-
-code in a web application that cannot be tested from outside of your application environment.
-For example: your legacy code uses some settings 
+How to use it (not tried yet): Write your tests. Run the app. Load the page that in this project is the default, then it shoud run all and visualize all the tests of your projects.
 
 This is just a "waking skeleton". Here is a list of possible new features that I think will make the product more useful at scale.
 
